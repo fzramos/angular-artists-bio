@@ -2,6 +2,20 @@
     <h1>Your Favorite Artists</h1>
 </div>
 
-<p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem distinctio aliquam, omnis aliquid quos eius deserunt ut, iste rem sed velit nam porro dignissimos. Magni iusto delectus dolore possimus cupiditate?
-</p>
+<!--Add item Section-->
+<!--A List of all of our expenses and income-->
+<section class="add-item-section has-background-dark has-text-light">
+    <div class="add-item-container">
+        <!-- TODO Add Angular Form for adding info -->
+        <app-add-item-form style="padding:20px;"></app-add-item-form>
+        <!-- (formSubmit) = 'addItem($event)' -->
+    </div>
+</section>
+
+<hr style="margin-top:0px;">
+<app-artist-list 
+        [artistItems] = "artistItems"
+        (delete) = "deleteArtist($event)"
+        (update) = "updateArtist($event)"
+>
+</app-artist-list>

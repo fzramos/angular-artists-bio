@@ -1,0 +1,59 @@
+// @charset "utf-8";
+
+// // Import a Google Font
+// @import url('https://fonts.googleapis.com/css?family=Nunito:400,700|Lato:300,900');
+
+// // Set your brand colors
+// $purple: rgb(159, 104, 235);
+// $light-grey: #f5f5f5;
+// $dark: rgb(22,28,41);
+
+// // custom Green Color inside of Bulma
+// $green: #00cc86;
+// $light-green: #bafacd;
+
+// // custom Red Color inside of Bulma
+// $red: #dc3900;
+// $light-red: #ffe5e3;
+
+// // Update Bulma's global variables
+// $family-sans-serif: "Nunito", sans-serif;
+// $grey-dark: $purple;
+// $link: $purple;
+
+// // Update some of Bulma's component variables
+// $body-background-color:$dark;
+// $control-border-width: 2px;
+// $input-border-color: transparent;
+// $input-shadow: none;
+// $input-background-color: $light-grey;
+
+
+@charset "utf-8";
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+
+// Set your brand colors
+$purple: #8A4D76;
+$pink: #FA7C91;
+$brown: #757763;
+$beige-light: #D0D1CD;
+$beige-lighter: #EFF0EB;
+$light-grey: rgb(156, 156, 156);
+$dark: rgb(37, 37, 37);
+
+// Update Bulma's global variables
+$family-sans-serif: "Nunito", sans-serif;
+$grey-dark: $brown;
+$grey-light: $beige-light;
+$primary: $purple;
+$link: $pink;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+// Update some of Bulma's component variables
+$body-background-color: $dark;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
