@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ArtistItem } from '../shared/artist-item';
 
-import { UpdateEvent } from '../artist-list/artist-list.component'
+import { UpdateEvent } from '../artist-list/artist-list.component';
 
 @Component({
   selector: 'app-main-page',

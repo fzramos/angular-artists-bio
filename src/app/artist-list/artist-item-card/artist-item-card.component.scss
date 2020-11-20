@@ -41,29 +41,31 @@
 .artist-item{
     display: flex;
     width:100%;
-    background-color: $light-grey;
-    padding: 10px;
+    background-color: $yellow-green;
+    color: black;
+    padding: 20px;
     border-radius: 5px;
     cursor: pointer;
+    line-height: 1;
 
     transition: background-color 0.2s ease-out;
     &:hover{
-        background-color: darken($light-grey, 2%);  
+        background-color: darken($yellow-green, 7%);  
+    }
+
+    .name{
+        // padding: 10px;
+        border-radius: 3px;
+        font-weight: bold;
     }
 
     .description{
         display: flex;
-        flex-grow: 1;
+        flex-grow: .5;
         font-size: 18px;
-        margin-left: 5px;
+        margin-left: 20px;
 
         //vertically center the children elements
         align-content: center;
     }
-
-    .artist{
-        padding: 5px;
-        border-radius: 3px;
-    }
-
 }

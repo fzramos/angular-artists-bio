@@ -7,13 +7,13 @@
 <section class="add-item-section has-background-dark has-text-light">
     <div class="add-item-container">
         <!-- TODO Add Angular Form for adding info -->
-        <app-add-item-form style="padding:20px;"></app-add-item-form>
-        <!-- (formSubmit) = 'addItem($event)' -->
+        <app-add-item-form style="padding:20px;" (formSubmit) = 'addArtist($event)'>
+        </app-add-item-form>
     </div>
 </section>
 
 <hr style="margin-top:0px;">
-<app-artist-list 
+<app-artist-list class="has-background-dark has-text-light"
         [artistItems] = "artistItems"
         (delete) = "deleteArtist($event)"
         (update) = "updateArtist($event)"
